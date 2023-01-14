@@ -1,0 +1,5 @@
+C:\repozit\lektion_4\lektion1\lekttion2\obj\Debug\net6.0\lekttion2.csproj.AssemblyReference.cache
+C:\repozit\lektion_4\lektion1\lekttion2\obj\Debug\net6.0\lekttion2.GeneratedMSBuildEditorConfig.editorconfig
+C:\repozit\lektion_4\lektion1\lekttion2\obj\Debug\net6.0\lekttion2.AssemblyInfoInputs.cache
+C:\repozit\lektion_4\lektion1\lekttion2\obj\Debug\net6.0\lekttion2.AssemblyInfo.cs
+C:\repozit\lektion_4\lektion1\lekttion2\obj\Debug\net6.0\lekttion2.csproj.CoreCompileInputs.cache
