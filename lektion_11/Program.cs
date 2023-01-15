@@ -1,28 +1,26 @@
-﻿//Урок 4. Функции
+﻿//Урок 4. Функции Задача 777
 
 // 1. Ввод N  int <- (string)
-int GetVal(string text)
+int GetVal(string? text)
 {
-Console.Write("Введите числo:");
-return Convert.ToInt32(Console.ReadLine());
+     return Convert.ToInt32(text);
 }
 
 // 2 .Создание массива
 int[] CreateArray(int size)
 {
-int[] array = new int[size];
+int[] array = new int[size]; // принимает строковый пар, возвращает число
 return array;
 }
 
 // 3. Заполнение массива 0 и 1
-void FillArray(int[] collection)
+void FillArray(int[] array)
 {
-  int length = collection.Length;
-  int index = 0;
-  collection[0] = 1;
-  while (index < length)
+  int length = array.Length;
+  array[0] = 1;
+  for (int index = 1; index < length; index++)
   {
-    collection[index] = new Random().Next(0, 1);
+    array[index] = new Random().Next(0, 2);
     index++;
   }
 }
@@ -30,38 +28,43 @@ void FillArray(int[] collection)
 
 //4/ Печать массива
 
-void PrintArray(int[] col)
+string PrintArray(int[] array)
 {
- int count = col.Length;
+ string sed = String.Empty; 
 
- for (int i = 0; i < count; i++)
- {
-    Console.Write($"{col[i]}");
- }
- Console.WriteLine();
+ for (int j = 0; j < array.Length; j++)
+   {
+   sed = sed + array[j];
+   }
+   return sed;
 }
-//5 конвертация из 2 в 10
 
-int Binarr(int[] arrBin)
+//5 конвертация из 2 в 10 // принимает массив
+
+  int ToDes(int[] array)
+  {
+    int des = 0;
+    for (int r = 0; r < array.Length; r++)
+      {
+        des = des + (int)(array[r]*Math.Pow(2, array. Length-1-r)); 
+      }
+  return des;
+  }
+
+//6.  Принимает массив
+string SevPrint(int[] array, int des)
 {
-     int count = arrBin.Length;
-     int exponent = arrBin.Length - 1;
-     int result = 0;
-     for (int i = 0; i < arrBin.Length; i++)
-     {
-         if (arrBin[i] == 1)
-         {
-            result += Convert.ToInt32(Math.Pow(2, exponent));
-         }
-         exponent--;
-     }
-     return result;
-}    
+  return $"{String.Join("", array)} >> {des}";
+}
 
 
-PrintArray(array);
-FillArray(array);
-PrintArray(array);
+Console.WriteLine("Введите длину массива: ");
+int length = GetVal(Console.ReadLine());
+int[] numbers = CreateArray(length);
+FillArray(numbers);
+Console.WriteLine(PrintArray(numbers));
+int des = ToDes(numbers);
+Console.WriteLine(SevPrint(numbers, des));
 
 
 
