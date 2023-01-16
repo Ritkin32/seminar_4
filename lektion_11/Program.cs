@@ -1,7 +1,7 @@
 ﻿//Урок 4. Функции Задача 777
 
 // 1. Ввод N  int <- (string)
-int GetVal(string? text)
+int GetVal(string text)
 {
      return Convert.ToInt32(text);
 }
