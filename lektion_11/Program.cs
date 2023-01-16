@@ -52,9 +52,9 @@ string PrintArray(int[] array)
   }
 
 //6.  Принимает массив
-string SevPrint(int[] array, int des)
+string SevPrint(int des)
 {
-  return $"{String.Join("", array)} >> {des}";
+  return $"десятичное число {des}";
 }
 
 
@@ -64,7 +64,7 @@ int[] numbers = CreateArray(length);
 FillArray(numbers);
 Console.WriteLine(PrintArray(numbers));
 int des = ToDes(numbers);
-Console.WriteLine(SevPrint(numbers, des));
+Console.WriteLine(SevPrint(des));
 
 
 
