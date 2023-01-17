@@ -1,0 +1,15 @@
+C:\repozit\lektion_4\lektion1\lektion9\bin\Debug\net6.0\lektion9.exe
+C:\repozit\lektion_4\lektion1\lektion9\bin\Debug\net6.0\lektion9.deps.json
+C:\repozit\lektion_4\lektion1\lektion9\bin\Debug\net6.0\lektion9.runtimeconfig.json
+C:\repozit\lektion_4\lektion1\lektion9\bin\Debug\net6.0\lektion9.dll
+C:\repozit\lektion_4\lektion1\lektion9\bin\Debug\net6.0\lektion9.pdb
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.csproj.AssemblyReference.cache
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.GeneratedMSBuildEditorConfig.editorconfig
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.AssemblyInfoInputs.cache
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.AssemblyInfo.cs
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.csproj.CoreCompileInputs.cache
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.dll
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\refint\lektion9.dll
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.pdb
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\lektion9.genruntimeconfig.cache
+C:\repozit\lektion_4\lektion1\lektion9\obj\Debug\net6.0\ref\lektion9.dll
